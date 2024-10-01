@@ -1,0 +1,73 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #28a745; /* Franja verde */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem; /* Más grande */
+    font-family: 'Georgia', serif; /* Fuente empresarial */
+    color: white;
+    margin: 0;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+/* Contenedor de los artículos */
+.article {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Reducir el ancho */
+    border: 2px solid rgba(190, 190, 190, 0.94);
+    transition: transform 0.3s ease;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo de las imágenes */
+img {
+    width: 95%; /* Reducir el tamaño de las imágenes */
+    height: auto;
+    margin: 15px auto; /* Añadir márgenes */
+    border-radius: 5px;
+    display: block;
+}
+
+.article h2, .article p {
+    width: 95%; 
+    margin: 8px auto; /
+}
+
+/* Estilo de los botones */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Información del pie de página */
+.info {
+    text-align: center;
+    color: #666;
+}

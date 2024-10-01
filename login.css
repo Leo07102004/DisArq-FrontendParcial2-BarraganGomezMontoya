@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Ancho estándar */
+    text-align: center;
+    border: 2px solid rgba(190, 190, 190, 0.94);
+}
+
+/* Contenedor más ancho para registro */
+.registro-container {
+    width: 600px; /* Ancho específico para la página de registro */
+    border: 2px solid rgba(190, 190, 190, 0.94);
+}
+
+/* Estilos para los títulos */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los campos de texto y contraseña */
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-password {
+    margin-bottom: 20px;
+}
+
+/* Estilo del botón */
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo del enlace */
+.link {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
